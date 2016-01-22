@@ -12,6 +12,9 @@ describe('pizza', function() {
     expect(pizza(5)).to.equal("pie");
   });
 
+  it("is a number not divisible by 3, 5, 15, return number", function() {
+    expect(pizza(7)).to.equal(true);
+  });
 
 
 
