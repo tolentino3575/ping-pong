@@ -5,6 +5,8 @@ var pizza = function(input) {
     return "pizza";
   } else if (input % 5 === 0) {
     return "pie";
+  } else {
+    return true;
   }
 };
 
