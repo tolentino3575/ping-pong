@@ -4,6 +4,10 @@ describe('pizza', function() {
     expect(pizza(3)).to.equal("pizza");
   });
 
+  it("is a number divisible by 5, change to pie", function() {
+    expect(pizza(5)).to.equal("pie");
+  });
+
 
 
 
