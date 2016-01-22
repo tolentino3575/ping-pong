@@ -1,6 +1,8 @@
 var pizza = function(input) {
-    if (input % 3 === 0) {
-      return "pizza";
+    if (input % 15 === 0) {
+      return "pizzapie";
+  } else if (input % 3 === 0) {
+    return "pizza";
   } else if (input % 5 === 0) {
     return "pie";
   }
