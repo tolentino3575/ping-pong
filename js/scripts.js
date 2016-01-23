@@ -1,22 +1,15 @@
-// var numList = function(inputNum) {
-//   var array = []
-//   for (var i =1; 1 <= inputNum; i++) {
-// //     array.push(i);
-//   }
-//   return array
-// }
 
 var numReplace = function(inputNum) {
     var array = []
     for (var i = 1; i <= inputNum; i++) {
       if (i % 15 === 0) {
-        array.push("pizza-pie!");
+        array.push(" pizza-pie!");
     } else if (i % 3 === 0) {
-        array.push("pizza!");
+        array.push(" pizza!");
     } else if (i % 5 === 0) {
-        array.push("pie!");
+        array.push(" pie!");
     } else {
-        array.push(i);
+        array.push(" " + i);
     }
   };
   return array;
@@ -49,20 +42,4 @@ $(document).ready(function(){
 //     } else {
 //         return ("i");
 //     }
-//   };
-
-
-// var numReplace = function(inputNum) {
-//     var array = []
-//     for (i = 1, i <= inputNum, i++);
-//       if (inputNum % 15 === 0) {
-//         array.push("pizza-pie!");
-//     } else if (inputNum % 3 === 0) {
-//         array.push("pizza!");
-//     } else if (inputNum % 5 === 0) {
-//         array.push("pie!");
-//     } else {
-//         array.push(inputNum);
-//     }
-//     return array;
 //   };

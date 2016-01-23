@@ -14,27 +14,44 @@
         <h1>Pizza-Pie!</h1>
       </div>
 
-      <form id="pizzaPie">
-        <div class="form-group">
-          <h3>Let's make some pizza-pies!</h3>
-          <h4>Rules</h4>
-          <p>Pizza Pie will count up to your number from 1 with the following exceptions:</p>
-          <ol>
-            <li>Numbers divisible by 3 will turn into pizzas!</li>
-            <li>Numbers divisible by 5 will turn into pies!</li>
-            <li>Numbers divisible by 15 will turn into pizza-pies!</li>
-          </ol>
-          <label for="userInput">Introduzca un numero de convertirse en piza, por favor!!</label>
-          <input id="userInput" type="number">
-        </div>
+      <div class="col-md-7">
+        <form id="pizzaPie">
+          <div class="form-group">
+            <h3>Let's make some pizza-pies!</h3>
+            <h4>Rules</h4>
+            <p>Pizza Pie will count up to your number from 1 with the following exceptions:</p>
+            <ol>
+              <li>Numbers divisible by 3 will turn into pizzas!</li>
+              <li>Numbers divisible by 5 will turn into pies!</li>
+              <li>Numbers divisible by 15 will turn into pizza-pies!</li>
+            </ol>
+            <label for="userInput">Introduzca un numero de convertirse en piza, por favor!!</label>
+            <input id="userInput" type="number">
+          </div>
 
-        <button type="submit" class="btn btn-danger" id="submit">WOO PIZZA YEA!</button>
-      </form>
+          <button type="submit" class="btn btn-danger" id="submit">WOO PIZZA YEA!</button>
+        </form>
+
+        <br>
+
+        <div id="result">
+          <p id="resultNums"></p>
+        </div>
+      </div>
 
       <br>
+      <br>
 
-      <div id="result">
-        <p id="resultNums"></p>
+      <div class="col-md-5">
+        <h2>u hungry?</h2>
+        <img class="respond" src="img/pizza.jpg"></img>
+        <br>
+        <br>
+        <img class="respond" src="img/pie.jpg"></img>
+        <br>
+        <br>
+        <img class="respond" src="img/pizzapie.jpg"></img>
+        <h5>me 2</h5>
       </div>
 
     </div>
