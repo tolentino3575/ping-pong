@@ -1,6 +1,6 @@
 #Week 3 Code Review
 
-Javascript and JQuery code review 01.22.2016
+BDD code review 01.22.2016
 
 ##By Erik Tolentino
 
