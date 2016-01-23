@@ -2,6 +2,10 @@
   display: none;
 }
 
-h2, h5 {
+h1, h2, h6  {
+  text-align: center;
+}
+
+.col-md-5 h4 {
   text-align: center;
 }
