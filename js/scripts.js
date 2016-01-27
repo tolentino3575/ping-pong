@@ -1,18 +1,18 @@
 
 var numReplace = function(inputNum) {
-    var array = []
+    var arrayFill = []
     for (var i = 1; i <= inputNum; i++) {
       if (i % 15 === 0) {
-        array.push(" pizza-pie!");
+        arrayFill.push(" pizza-pie!");
     } else if (i % 3 === 0) {
-        array.push(" pizza!");
+        arrayFill.push(" pizza!");
     } else if (i % 5 === 0) {
-        array.push(" pie!");
+        arrayFill.push(" pie!");
     } else {
-        array.push(" " + i);
+        arrayFill.push(" " + i);
     }
   };
-  return array;
+  return arrayFill;
 };
 
 
